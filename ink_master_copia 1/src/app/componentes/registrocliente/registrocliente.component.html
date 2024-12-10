@@ -1,0 +1,34 @@
+<div class="form-wrapper">
+<div class="container" id="form">
+    <h2 class="form-title">Registrate!</h2>
+    <form class="bg-danger p-3 m-5 rounded" [formGroup]="form" (ngSubmit)="onSubmit()">
+        <div class="mb-3">
+            <label class="form-label">ID</label>
+            <input type="number" class="form-control" id="idCliente" formControlName="idCliente">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Correo</label>
+            <input type="mail" class="form-control" id="correoCliente" formControlName="correoCliente">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombreCliente" formControlName="nombreCliente">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="apellidoCliente" formControlName="apellidoCliente">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Telefono</label>
+            <input type="text" class="form-control" id="telefonoCliente" formControlName="telefonoCliente">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="contrasenaCliente" formControlName="contrasenaCliente">
+        </div>
+        <div>
+            <button type="submit" class="btn btn-primary" name="Guardar">Guardar</button>
+        </div>      
+    </form>
+</div>
+</div>

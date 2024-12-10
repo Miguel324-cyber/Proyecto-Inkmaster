@@ -1,0 +1,23 @@
+.container-fluid-2{
+    padding: 9%;
+}
+
+.text-uppercase {
+    margin-left: 25;
+    color: white;
+    font-size: 100px;
+    font-family: arial;
+    font-weight: 1000;
+}
+
+.text {
+    color: white;
+    font-size: 50px;
+    font-family: 'Segoe UI';
+}
+
+.card-body {
+    border-color: rgb(138, 13, 13);
+    color: rgb(255, 255, 255);
+    background-color: rgb(138, 13, 13);
+}
